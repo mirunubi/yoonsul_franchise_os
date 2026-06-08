@@ -1,0 +1,31 @@
+@"
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# temp / backup
+*.tmp
+*.bak
+*.log
+*.zip
+*.7z
+*.rar
+
+# local env
+.env
+.env.*
+!.env.example
+
+# node / python / build
+node_modules/
+dist/
+build/
+__pycache__/
+.venv/
+venv/
+
+# local scratch
+sop/
+"@ | Out-File -Encoding utf8 .gitignore

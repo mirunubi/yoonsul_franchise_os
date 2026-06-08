@@ -1,0 +1,121 @@
+[ 3rd_00005_Number_Index.md ]
+
+% root\docs\0001_Md_Rules.md %
+% root\docs\0002_Naming_Rules.md %
+% root\docs\0004_Architecture_Numbering.md %
+% root\docs\3rd\3rd_00000_Readme.md %
+% root\docs\3rd\3rd_00007_Directory_Map.md %
+% root\docs\3rd\3rd_00018_Governance_Constitution.md %
+
+<< docs-only ì¨?Phase 3 civilization number index >>
+<< index for the independent 3rd_* civilization namespace >>
+
+This document indexes the Phase 3 civilization namespace.
+It is the discoverability spine for the independent `docs/3rd/` space and should be read together with the readme, naming rules, directory map, and governance constitution.
+
+# 1 Purpose
+
+< Phase 3 Index >
+
+AI and Physical AI are reserved future surfaces only; the current 3rd civilization is AI-compatible, not AI-dependent.
+
+The index exists so that people and machine-assisted tools can find the right Phase 3 civilization document quickly without depending on the current 0000/0005/0007/0018 onboarding spine.
+
+Bridge note:
+
+- `0500_Franchise_Frontline_OS_Phase3_Constitution.md` is the ingress bridge from the current docs system.
+- `3rd_00000_Readme.md` is the onboarding hub for the `docs/3rd/` namespace.
+- `3rd_*` is the independent Phase 3 civilization namespace.
+
+# 2 Number Band Ownership
+
+< Band Ownership >
+
+| band | owner |
+| ---- | ----- |
+| 3rd_00000 | onboarding hub |
+| 3rd_00001 | markdown rules |
+| 3rd_00002 | naming rules |
+| 3rd_00005 | number index |
+| 3rd_00007 | directory map |
+| 3rd_00018 | governance constitution |
+| 3rd_01000-3rd_01999 | Frontline Runtime |
+| 3rd_02000-3rd_02999 | Store Operations |
+| 3rd_03000-3rd_03999 | HQ Operational Brain |
+| 3rd_04000-3rd_04999 | Commerce / CRM |
+| 3rd_05000-3rd_05999 | SCM / Manufacturing |
+| 3rd_06000-3rd_06999 | WMS / Logistics |
+| 3rd_07000-3rd_07999 | Supplier Ecosystem |
+| 3rd_08000-3rd_08999 | Consumer / reserved |
+| 3rd_09000-3rd_09999 | Future Expansion |
+| 3rd_10000-3rd_29999 | reserved |
+
+# 3 Current Spine Documents
+
+< Spine Documents >
+
+- `3rd_00000_Readme.md` - Phase 3 onboarding hub and bridge explanation.
+- `3rd_00001_Md_Rules.md` - Phase 3 markdown rules.
+- `3rd_00002_Naming_Rules.md` - Phase 3 naming rules.
+- `3rd_00005_Number_Index.md` - Phase 3 discoverability index.
+- `3rd_00007_Directory_Map.md` - Phase 3 directory map.
+- `3rd_00018_Governance_Constitution.md` - Phase 3 governance constitution.
+
+# 4 Future Bands
+
+< Future Bands >
+
+The initial banding exists to keep subsystem split disciplined.
+
+Proposed future document families:
+
+- 3rd_01000 series: frontline runtime constitution documents.
+- 3rd_02000 series: store operations constitution documents.
+- 3rd_03000 series: HQ operational brain constitution documents.
+- 3rd_04000 series: commerce and CRM constitution documents.
+- 3rd_05000 series: supply and manufacturing constitution documents.
+- 3rd_06000 series: WMS and logistics constitution documents.
+- 3rd_07000 series: supplier ecosystem constitution documents.
+- 3rd_09000 series: future expansion and exploratory documents.
+
+# 5 Bridge And Read Order
+
+< Read Order >
+
+1. `3rd_00000_Readme.md`
+2. `3rd_00001_Md_Rules.md`
+3. `3rd_00002_Naming_Rules.md`
+4. `3rd_00005_Number_Index.md`
+5. `3rd_00007_Directory_Map.md`
+6. `3rd_00018_Governance_Constitution.md`
+7. `0500_Franchise_Frontline_OS_Phase3_Constitution.md`
+
+# 6 Index Rules
+
+< Index Rules >
+
+- Index by number first, then by purpose.
+- Keep bridge documents visible, but separate from the independent spine.
+- Do not leak current onboarding spine ownership into this new program.
+- Do not index SaaS 30000 namespace docs here.
+- Do not index implementation code or generated artifacts here.
+
+# 7 Naming and Numbering Notes
+
+< Notes >
+
+- The prefix must be unique within the Phase 3 civilization namespace.
+- The index does not create authority; it only makes documents discoverable.
+- The `3rd_*` series is reserved for the Phase 3 civilization namespace family.
+
+# 8 Unresolved Decisions
+
+< Unresolved Decisions >
+
+| decision | question |
+| -------- | -------- |
+| band expansion order | which future band should be written first after the constitution spine? |
+| bridge permanence | should 0500 remain a permanent bridge or become a temporary transition artifact? |
+| future directory move | should the later Phase 3 docs remain root-indexed or move into subdirectories? |
+
+The index is complete enough to start constitutional writing.

@@ -1,0 +1,13 @@
+﻿agent
+commerce
+consumer
+federation
+frontline
+future
+hq
+scm
+store_operations
+store_ops
+supplier
+wms
+wms_logistics
