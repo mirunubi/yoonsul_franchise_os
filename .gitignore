@@ -1,11 +1,10 @@
-@"
-# OS / editor
+# OS / editor noise
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 
-# temp / backup
+# Temp / archive files
 *.tmp
 *.bak
 *.log
@@ -13,12 +12,12 @@ Thumbs.db
 *.7z
 *.rar
 
-# local env
+# Environment files
 .env
 .env.*
 !.env.example
 
-# node / python / build
+# Node / Python / build folders
 node_modules/
 dist/
 build/
@@ -26,6 +25,5 @@ __pycache__/
 .venv/
 venv/
 
-# local scratch
+# Local scratch
 sop/
-"@ | Out-File -Encoding utf8 .gitignore
