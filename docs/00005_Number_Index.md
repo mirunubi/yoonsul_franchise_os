@@ -152,7 +152,19 @@ Legacy bridge exception:
 - `80000_agent/80180_Agent_Hygiene_Routine_And_CCP_Prompt_Integration.md` - hygiene routine prompt, CCP/HACCP-lite preparation support, KDS/DID/staff device/future speaker prompt boundary, overdue escalation, Event, and Audit design.
 - `80000_agent/80190_Agent_Prepared_Inventory_And_Reorder_Integration.md` - prepared inventory production, theoretical-vs-actual correction, reorder recommendation, KDS/DID prompt boundary, manager approval, Event, and Audit design.
 
-# 10 SCM / Inventory Documents
+# 10 Store Runtime Operations Documents
+
+< Store Runtime Operations >
+
+The Store Runtime Operations document family is stored under `07000_store_runtime_operations`.
+It defines docs-only store orchestration, workforce continuity, incident recovery, and hybrid daypart operation design.
+
+- `07000_store_runtime_operations/07000_Store_Operational_Orchestration_Runtime_Constitution.md` - store operational orchestration runtime constitution.
+- `07000_store_runtime_operations/07020_Hybrid_FnB_Daypart_Operation_Model.md` - hybrid F&B daypart operation model for idle-time reduction, hybrid meal/cafe space operation, and sales-per-square-meter design.
+- `07000_store_runtime_operations/07100_Workforce_Operational_Runtime_Constitution.md` - workforce operational continuity runtime constitution.
+- `07000_store_runtime_operations/07200_Operational_Incident_Recovery_And_Override_Runtime_Constitution.md` - operational incident recovery and override runtime constitution.
+
+# 11 SCM / Inventory Documents
 
 < SCM / Inventory >
 
