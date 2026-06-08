@@ -202,6 +202,157 @@ Logical AI decision message
 => AI relearning
 ```
 
+# Future AI F&B Platform Capability Direction
+
+< Long-Term Direction >
+
+The first implementation target is not AI demand forecasting, equipment failure prediction, smart inventory automation, or personalized marketing.
+
+However, franchise_os is intentionally building the RDBMS canonical ledger, Agent Runtime, Decision Message Repository, inventory event model, equipment event model, and customer/member event foundation so these AI capabilities can be built later on top of canonical ledgers and Agent Runtime data.
+
+These future capabilities are not separate first-step modules.
+They are downstream AI capabilities enabled by:
+
+- Task / Event / Audit / Exception ledgers.
+- Agent Recommendation Log.
+- Manager Approval Log.
+- Decision Message Repository.
+- Inventory Ledger.
+- Equipment Event Ledger.
+- Customer / Membership Event foundation.
+- RDBMS-first canonical data.
+- later pgvector / NoSQL / log store expansion if needed.
+
+## Future Capability Area A · AI-Based Demand Forecasting
+
+< Inputs >
+
+Inputs may include:
+
+- POS sales events.
+- time of day.
+- day of week.
+- weather.
+- delivery order volume.
+- waiting / queue data.
+- KDS bottleneck data.
+- inventory depletion pattern.
+- promotion / season menu data.
+
+< Outputs >
+
+Outputs may include:
+
+- production quantity recommendation.
+- reorder recommendation.
+- staffing recommendation.
+- menu exposure adjustment recommendation.
+
+## Future Capability Area B · Equipment Failure Prediction
+
+< Inputs >
+
+Inputs may include:
+
+- equipment usage events.
+- failure reports.
+- maintenance history.
+- abnormal temperature or delay events.
+- staff inspection records.
+- future sensor logs.
+- future device raw logs.
+
+< Outputs >
+
+Outputs may include:
+
+- inspection recommendation.
+- maintenance recommendation.
+- equipment risk alert.
+- degraded operation preparation.
+
+## Future Capability Area C · Smart Inventory
+
+< Inputs >
+
+Inputs may include:
+
+- inbound stock.
+- prepared inventory production.
+- recipe consumption.
+- disposal.
+- transfer.
+- actual count.
+- theoretical inventory.
+- inventory gap.
+- sales forecast.
+- supplier lead time.
+
+< Outputs >
+
+Outputs may include:
+
+- shortage warning.
+- production recommendation.
+- reorder recommendation.
+- safety stock adjustment recommendation.
+- transfer recommendation.
+
+## Future Capability Area D · Personalized Marketing
+
+< Inputs >
+
+Inputs may include:
+
+- purchase history.
+- menu preference.
+- visit cycle.
+- time-of-day preference.
+- membership tier.
+- coupon response.
+- Yoonsul Dameum / recurring pickup pattern.
+- health-oriented menu preference.
+
+< Outputs >
+
+Outputs may include:
+
+- menu recommendation.
+- coupon recommendation.
+- recurring pickup recommendation.
+- membership engagement recommendation.
+- seasonal campaign targeting.
+
+## Yoonsul Differentiation
+
+Ordinary AI F&B platforms may focus on prediction and marketing.
+
+yoonsul_franchise_os must preserve:
+
+- Recovery-first architecture.
+- Audit-first operation.
+- Human approval first.
+- Recommendation != Execution.
+- Evidence != Approval.
+- Failure / recovery as first-class data.
+- Store degraded operation visibility.
+- Manager decision result learning.
+
+Future AI F&B capabilities must remain recommendation and learning layers.
+They must not bypass manager approval, audit lineage, or recovery visibility.
+
+## Future Capability Non-Implementation Boundary
+
+This section does not define:
+
+- demand forecasting algorithm.
+- equipment prediction algorithm.
+- smart inventory formula.
+- CRM personalization model.
+- AI model architecture.
+- database schema.
+- production implementation roadmap.
+
 # 7 Core Data Store Principle
 
 < Canonical Truth >
@@ -262,6 +413,12 @@ This document does not define:
 - final sync protocol.
 - final Physical AI device protocol.
 - production device integration.
+- demand forecasting algorithm.
+- equipment prediction algorithm.
+- smart inventory formula.
+- CRM personalization model.
+- AI model architecture.
+- production implementation roadmap for Future AI F&B platform capabilities.
 
 This document is development-design staging only.
 It does not create implementation code, SQL, migrations, Flutter implementation, Agent process code, NoSQL implementation, or final physical device protocol.

@@ -18,6 +18,7 @@ The focus is operational capability integration for development planning, domain
 
 Data-store and AI evolution staging is defined in `80170_Agent_Data_Store_And_AI_Evolution_Principles.md`.
 That document preserves RDBMS as canonical truth and separates Logical AI learning, Physical AI task translation, Physical AI interface specification, and actual device integration into staged design rules.
+Future AI F&B platform capabilities such as demand forecasting, equipment failure prediction, smart inventory, and personalized marketing are downstream capabilities of the current Agent Runtime and RDBMS-first ledger design; see `80170`.
 
 # 2 Core Agent Architecture Flow
 
